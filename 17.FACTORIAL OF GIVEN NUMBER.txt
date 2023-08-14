@@ -1,0 +1,27 @@
+17.FACTORIAL OF GIVEN NUMBER
+
+CODE:
+
+
+#include <stdio.h>
+
+void main() {
+    int i,fact=1,num;
+    printf("ENTER A NUMBER: ");
+    scanf("%d",&num);
+    for(i=1;i<=num;i++){
+        fact=fact*i;
+    }
+    printf("FACTORIAL  OF IS %d : %d ",num,fact);
+}
+
+
+OUTPUT:1
+
+ENTER A NUMBER: 5
+FACTORIAL  OF IS 5 : 120 
+
+OUTPUT:2
+
+ENTER A NUMBER: 10
+FACTORIAL  OF IS 10 : 3628800 
